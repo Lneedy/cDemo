@@ -1,0 +1,22 @@
+/*
+ ============================================================================
+ Name        : c_demo.c
+ Author      : lneedy
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdbool.h>
+
+#define WATER 3.0e-23
+
+int main(int argc, char *argv[]) {
+	float res;
+	res = 905 * WATER;
+	printf("res=%f \n", res);
+	return 0;
+
+}

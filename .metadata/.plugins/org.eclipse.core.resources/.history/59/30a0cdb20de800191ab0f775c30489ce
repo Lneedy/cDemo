@@ -1,0 +1,19 @@
+/*
+ ============================================================================
+ Name        : c_demo.c
+ Author      : lneedy
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
+	char ch;
+	ch = 128;
+	printf("ch=%d %c\n"o, ch, ch);
+	return 0;
+
+}
